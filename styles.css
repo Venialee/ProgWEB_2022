@@ -1,0 +1,18 @@
+body{
+	margin: 0px 0px;
+	border: 0px, 0px;
+	background-color: RGB(235, 237, 240);
+	font-family: Arial;
+}
+
+.header{
+	padding: 10px;
+	background-color: RGB(57, 119, 219);
+	color: RGB(168, 44, 35);
+	text-align: center;
+}
+
+#tabela{
+	border=1px, solid, black;
+	width=100%;
+}
