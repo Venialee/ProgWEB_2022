@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Aula 1 - Portifólio</title>
-	<link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-	<div class='header'>
+	<header>
 		<h1>PORTIFÓLIO</h1>
-	</div>
-	
-	<div class='principal'>
+	</header>
+
+	<section>
+		<img class="base_img" src="jg.jpeg" alt='João Gilberto' width="50%" height="40%">
+
 		<div>
-			<img src='jg.jpg' alt='João Gilberto'> 
-		</div>
-		<div class='conteudo'>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 				non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</div>
-		<div>
-			<h2>Lista de Habilidades</h2>
+
+		<div id="abilities">
+			<div id="abilities_title">
+				<h2>Lista de Habilidades</h2>
+			</div>
 			<ul>
 				<li>Vulputate ut pharetra</li>
 				<li>Scelerisque eleifend donec</li>
 				<li>Suspendisse interdum consectetur</li>
 			</ul>
 		</div>
-		<div>
-			<h2>Próximos Shows</h2>
-			<table class='tabela'>
+
+		<div id="info">
+			<div id="info_title">
+				<h2>Próximos Shows</h2>
+			</div>
+
+			<table border="2" width="50%" align="center">
 				<tr>
 					<th>Data</th>
 					<th>Local</th>
@@ -52,9 +60,32 @@
 				<tr>
 			<table>
 		</div>
+		
 		<div>
-			<iframe src='https://www.youtube.com/watch?v=ezTGEOvBorY'></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ezTGEOvBorY" 
+			title="YouTube video player" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+			</iframe>
 		</div>
-	</div>
+		
+	</section>
+
+	<footer>
+		<h4>Entre em contato</h4>
+		<form action="">
+			<label>Nome:</label><input type="text" id="nome" name="nome"><br>
+			<br>
+			<label>Email:</label><input type="text" id="email" name="email"><br>
+			<br>
+			<label>Mensagem:</label>
+			<br>
+			<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+			<br>	
+			<button>Enviar</button>
+		</form>
+		<h6>Todos os direitos reservados &copy;</h6>
+	</footer>
 </body>
+
 </html>

@@ -1,18 +1,79 @@
-body{
-	margin: 0px 0px;
-	border: 0px, 0px;
-	background-color: RGB(235, 237, 240);
-	font-family: Arial;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-.header{
-	padding: 10px;
-	background-color: RGB(57, 119, 219);
-	color: RGB(168, 44, 35);
+body {
+	font-family: arial, sans-serif;
+	margin: 0 0 60px;
+    padding: 0px;
+	background-color: #F0E7E9;
+}
+
+header{
+	padding: 5px;
+	background-color: #226F52;
+	color: #F0E7E9;
 	text-align: center;
 }
 
-#tabela{
-	border=1px, solid, black;
-	width=100%;
+section{
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	color: white;
+	padding: 10px;
+    bottom: -200;
+    height: 300px;
+    background-color: #226F52;
+}
+
+table{
+	margin: 15px auto;
+	background-color:white;
+}
+
+iframe{
+	padding-left: 65px;
+}
+
+.base_img{
+	border: 1px solid black;
+	margin-left: 170px;
+}
+
+#abilities{
+	background-color: #F0E7E9;
+	border: 1px solid black;
+}
+
+#abilities_title{
+	border-bottom: 1px solid black;
+	color: #F0E7E9;
+	text-align: center;
+	padding: 1px;
+	background-color: #226F52;
+}
+
+#info{
+	margin-top:20px;
+	border: 1px solid black;
+	background-color:#F0E7E9;
+}
+
+#info_title{
+	border-bottom: 1px solid black;
+	color: #F0E7E9;
+	text-align: center;
+	padding: 1px;
+	background-color: #226F52;
 }
